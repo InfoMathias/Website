@@ -1,0 +1,44 @@
+nav.menu-nav ul li.btn{
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: -48px;
+}
+
+nav.menu-nav ul li.btn a{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding : 10px;
+
+}
+
+body {
+background-image : url(../IMG/background_blanc_polygone.jpeg);
+}
+
+h1 {
+ font-family: sans-serif;
+ font-size: 100px;
+ background-color : black;
+ line-height: 0.70;
+ color: white;
+ margin: -10px;
+ padding-bottom: 20px;
+ box-shadow: rgba(0,0,0,0.2) 0px 10px;
+ text-align: left;
+ text-indent: 25px;
+ margin-top: -50px;
+
+}
+
+h1::before{
+  background-image:url(../IMG/icone_provisoire.PNG);
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin-left: -23px;
+  margin-right: 100px;
+  margin-top: 42px;
+  position: relative;
+  content:"";
+}

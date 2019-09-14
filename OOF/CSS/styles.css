@@ -1,0 +1,67 @@
+
+h1{
+ color: black;
+ text-align: center;
+ font-family: "roblox_2017regular";
+background-image: linear-gradient(to right,yellow, yellow, white);
+margin-top: -8px;
+margin-left: -8px;
+padding-bottom: 10px;
+padding-top: 10px;
+margin-right: -20px;
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+body{
+  background-image: radial-gradient(blue, white);
+}
+body .Icon{
+  margin-top: -71px;
+  margin-left: 255px;
+
+}
+
+.shadow1{
+  border: 1px solid;
+  margin-top: -60px;
+  margin-left: -10px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  margin-right: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'roblox_2017regular';
+    src: url('roblox_font_2017_reclusionshd_by_reclusionshd_dav2siz-webfont.woff2') format('woff2'),
+         url('roblox_font_2017_reclusionshd_by_reclusionshd_dav2siz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
