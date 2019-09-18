@@ -1,0 +1,105 @@
+/*Titillium Web*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+/*Permanent Maker*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+/* Page Grid Init */
+.wrapper{
+  display:grid;
+  grid-template-rows: 1fr 16fr 1fr;
+  margin: -8px;
+}
+
+.wrapper > div {
+  background: #eee;
+  padding: 7px;
+}
+.wrapper > div:nth-child(odd){
+  background:#DEDD23;
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+/* Header Layout */
+.header{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  position: sticky;
+  top:0;
+}
+
+.menu-nav{
+  align-self: end;
+  margin-bottom: -10px;
+  margin-left: 25%;
+
+}
+
+.button{
+  display:inline-grid;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav.menu-nav ul li.button a{
+  color:#000101 ;
+  text-decoration: none;
+  font-family: 'Permanent Marker';
+  font-size: 22px
+}
+nav.menu-nav ul li.button a:hover{
+  color: white;
+  text-shadow: 2px 2px rgba(0,0,0,.8);
+}
+
+.headercontact{
+  justify-content: start;
+  margin-left: 80%;
+}
+
+.contactus{
+ font-family: 'Titillium Web';
+ font-size: 80%;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+.headernumber{
+  font-family: 'Titillium Web';
+  font-size: 80%;
+
+}
+
+/* Body Layout */
+.mainbody{
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.introtitle{
+  font-family: 'Titillium Web';
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.introgallery{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image1 img:hover{
+  box-shadow: 0 0px 15px rgba(0,0,0,.8)
+}
+
+/* Footer Layout */
+.footer{
+  margin-bottom:-10px;
+}
