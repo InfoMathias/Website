@@ -1,0 +1,21 @@
+{
+"CandidatsFederaux":
+[
+  {"candidat": "Candidat P.L.C"},
+  {"candidat": "Candidat P.C.C"},
+  {"candidat": "Candidat B.Q."},
+  {"candidat": "Candidat N.P.D."},
+  {"candidat": "Candidat P.V.C"},
+  {"candidat": "Candidat P.P.C."}
+],
+"CandidatsProvinciaux":
+[
+  {"candidat": "Candidat C.A.Q"},
+  {"candidat": "Candidat P.L.Q"},
+  {"candidat": "Candidat P.Q"},
+  {"candidat": "Candidat P.V.Q"},
+  {"candidat": "Candidat Q.S"},
+  {"candidat": "Candidat P.C.Q"},
+  {"candidat": "Candidat P.I.Q"}
+]
+}
