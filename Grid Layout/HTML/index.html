@@ -7,7 +7,6 @@
       <title>Grid Layout</title>
 
       <link rel="stylesheet" type="text/css" href= "..\CSS\styles.css">
-
     </head>
 
   <body>
@@ -45,23 +44,26 @@
 
         <div class="mainbody">
           <div class="introbody">
-            <p class="introtitle">Bienvenue</p>
-            <p>
-
-            </p>
+            <p class="introtitle">Femme | Homme</p>
           </div>
           <div class="introgallery">
-            <div class="image1">
-              <img src="..\IMG\athlete.jpg" alt="body1" height="600"  width"80">
+            <div class="slide hi-slide">
+              <div class="hi-prev"></div>
+              <div class="hi-next"></div>
+              <ul>
+                <li><img src="..\IMG\athlete.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\basketball.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\escalade.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\judo.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\natation.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\surf.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\athlete.jpg" height=250px alt=""></li>
+                <li><img src="..\IMG\basketball.jpg" height=250px alt=""></li>
+              </ul>
             </div>
-            <div class="image1">
-              <img src="..\IMG\basketball.jpg" alt="body2" height="600"  width"80">
-            </div>
-            <div class="image1">
-              <img src="..\IMG\judo.jpg" alt="body3" height="600"  width"80">
-            </div>
-            <div class="image1">
-              <img src="..\IMG\natation.jpg" alt="body4" height="600"  width"80">
+            <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+              <script src="../JS/jquery.hislide.js"></script>
+              <script> $('.slide').hiSlide(); </script>
             </div>
            </div>
         </div>

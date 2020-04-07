@@ -7,7 +7,7 @@
 /* Page Grid Init */
 .wrapper{
   display:grid;
-  grid-template-rows: 1fr 16fr 1fr;
+  grid-template-rows: 1fr 20fr 1fr;
   margin: -8px;
 }
 
@@ -35,6 +35,7 @@ body:before {
   grid-template-columns: 1fr 2fr 1fr;
   position: sticky;
   top:0;
+  max-height: 100px;
 }
 
 .menu-nav{
@@ -51,7 +52,7 @@ body:before {
 }
 
 nav.menu-nav ul li.button a{
-  color:#000101 ;
+  color:#000101;
   text-decoration: none;
   font-family: 'Permanent Marker';
   font-size: 22px
@@ -82,7 +83,7 @@ nav.menu-nav ul li.button a:hover{
 /* Body Layout */
 .mainbody{
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 5% 90% 5%;
 }
 .introtitle{
   font-family: 'Titillium Web';
@@ -91,8 +92,83 @@ nav.menu-nav ul li.button a:hover{
 }
 
 .introgallery{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+
+.hi-slide{
+  position: relative;
+  width: 754px;
+  height: 292px;
+  border-radius: 50px;
+  margin: 115px auto 0;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover{
+  opacity: 1;
+  background-color: white;
+}
+
+.hi-slide .hi-prev{ left: -59px;}
+
+.hi-slide .hi-prev::before{
+  content: '<';
+}
+
+.hi-slide .hi-next{
+  right: -59px;
+}
+
+.hi-slide .hi-next::before{
+  content: '>';
+}
+
+.hi-slide > ul{
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 0;
+  padding: 0;
+}
+
+.hi-slide > ul > li{
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  cursor: pointer;
+  background-color: #333;
+}
+
+.hi-slide > ul > li > img{
+  width: 100%;
+  height: 100%;
+  background-position: center;
 }
 
 .image1 img:hover{
